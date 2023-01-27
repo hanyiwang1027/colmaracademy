@@ -1,0 +1,285 @@
+/* General */
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #0f0f0f;
+}
+
+h1 {
+    font-size: 54px;
+    line-height: 110%;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #939598;
+    line-height: 150%;
+}
+
+p {
+    font-size: 16px;
+}
+
+.note {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+/* Nagivation bar */
+
+nav {
+    height: 64px;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #0f0f0f;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo img {
+    height: 32px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+
+/* banner */
+
+header {
+    background-color: #eae0df;
+    display: flex;
+    flex-direction: row;
+    padding: 32px 24px;
+    gap: 24px;
+}
+
+.main-section {
+    width: 60%;
+}
+
+.banner {
+    width: 100%;
+}
+
+header .sub-section {
+    display: inline-block;
+    margin: auto;
+    width: 40%;
+}
+
+.sub-section h3 {
+    position: relative;
+    bottom: 35px;
+    width: 80%;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ea6036;
+    padding: 12px 42px;
+    position: relative;
+    bottom: 20px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Information */
+.information {
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 24px 64px 24px;
+    gap: 24px;
+    color: #eae0df;
+}
+
+.main-section {
+    width: 60%;
+}
+
+.main-section p {
+    width: 80%;
+    opacity: 0.5;
+    margin-top: -18px;
+}
+
+.main-section .note {
+    margin: 24px 0 0 0;
+    opacity: 0.8;
+}
+
+.card {
+    display: flex;
+    padding: 16px;
+}
+
+.card img {
+    /* height: auto; */
+    width: 35%;
+}
+
+.sub-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    bottom: 16px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding: 16px 16px 16px 32px;
+    justify-content: center;
+}
+
+.card-info h3{
+    color: #eae0df;
+    opacity: 0.8;
+    margin-bottom: -50px;
+}
+
+.card-info a {
+    color: #ea6036;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card-info p {
+    opacity: 0.5;
+    line-height: 24px;
+} 
+
+
+/* Course */
+.course {
+    background-color: #ea7653;
+    padding: 32px 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    height: 980px;
+}
+
+.course h2 {
+    margin-top: 48px;
+    margin-bottom: 18px;
+    color: #eae0df;
+}
+
+.course h3 {
+    margin-top: -2px;
+    margin-bottom: -2px;
+    color: #0f0f0f;
+}
+
+.course p {
+    line-height: 150%;
+}
+
+.grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.box {
+    background-color: white;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box-info {
+    padding: 16px;
+}
+
+.category {
+    color: #ea6036;
+    margin-bottom: -8px;
+}
+
+
+/* Thesis */
+.thesis {
+    background-color: #eae0df;
+    padding: 32px 24px;
+}
+
+.thesis h2 {
+    margin-top: 12px;
+    margin-bottom: 32px;
+    text-align: center;
+    color: #0f0f0f;
+}
+
+.flex-container {
+    background-color: #eae0df;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.thesis h3 {
+    color: #0f0f0f;
+    opacity: 0.8;
+}
+
+.thesis.main-section p {
+    color: #0f0f0f;
+    opacity: 0.5;
+}
+
+
+/* Footer */
+footer a {
+    color: #0f0f0f;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer {
+    padding: 16px 24px 64px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 0.5px white;
+    border-top-color: #0f0f0f;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.note {
+    font-size: 12px;
+}
